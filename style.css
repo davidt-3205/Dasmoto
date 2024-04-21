@@ -1,0 +1,84 @@
+/*sets general paramaters */
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+/* sets the nav bar. In html the list items are inside the anchor element. somehow this works so there aren't two borders and also not an anoying background, couldn't tell you why */
+.nav {
+    background-color: transparent;
+    position: fixed;
+    top: 1px;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    z-index: 5;
+}
+
+.nav a {
+    border-radius: 20px; 
+    margin: 0 auto;
+    text-decoration: none;    
+}
+
+li {
+    padding: 12px 15px;
+    border: 2px solid white;
+    border-radius: 20px; 
+    margin: 0 auto;  
+}
+
+.nav a li:hover {
+    background-color: white;
+    color: black;
+}
+
+/* syles the rest of the document. Had to write comments just because the nav bar took up to much space + too confusing */
+
+.intro h1 {
+    background-image: url('../images/pattern.jpeg');
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    position: relative;
+    top: 28px;
+    text-align: center;
+}
+
+/* P elements plus their specific background colors */
+
+.header {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+}
+#brushes {
+    background-color: mediumspringgreen;
+}
+#frame {
+    background-color: lightcoral;
+}
+#paint {
+    background-color: skyblue;
+}
+
+/* styles the price text in the description of each item type */
+
+.price {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: skyblue;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+footer p{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
