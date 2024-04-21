@@ -38,7 +38,7 @@ li {
 /* syles the rest of the document. Had to write comments just because the nav bar took up to much space + too confusing */
 
 .intro h1 {
-    background-image: url('../images/pattern.jpeg');
+    background-image: url('https://davidt-3205.github.io/Dasmoto/reasources/pattern.jpeg');
     font-family: Helvetica;
     font-size: 100px;
     font-weight: bold;
